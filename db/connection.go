@@ -4,6 +4,8 @@ import (
 	"apisimples/config"
 	"database/sql"
 	"fmt"
+
+	_ "github.com/lib/pq"
 )
 
 func OpenConnection() (*sql.DB, error) {

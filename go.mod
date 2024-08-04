@@ -2,7 +2,10 @@ module apisimples
 
 go 1.22.5
 
-require github.com/spf13/viper v1.19.0
+require (
+	github.com/lib/pq v1.10.9
+	github.com/spf13/viper v1.19.0
+)
 
 require (
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
