@@ -2,7 +2,7 @@ package model
 
 import "apisimples/db"
 
-func delete(id_indice int64) (int64, error) {
+func Delete(id_indice int64) (int64, error) {
 	conn, err := db.OpenConnection()
 	if err != nil {
 		return 0, err
